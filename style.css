@@ -1,0 +1,63 @@
+html, body {
+	background-image: url(http://www.pptback.com/uploads/clock-time-frame-backgrounds-powerpoint.jpg);
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+
+.clock {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -200px;
+	border: 10px solid black;
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+}
+
+.center {
+	position: absolute;
+	top: 200px;
+	margin-top: -10px;
+	margin-left: -10px;
+	left: 200px;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: black;
+}
+
+.hour {
+	position: absolute;
+	top: 200px;
+	margin-top: -3.5px;
+	height: 7px;
+	background: black;
+	width: 130px;
+	left: 70px;
+	transform-origin: center right;
+}
+
+.minute {
+	position: absolute;
+	top: 200px;
+	margin-top: -2.5px;
+	height: 5px;
+	background: black;
+	width: 180px;
+	left: 20px;
+	transform-origin: center right;
+}
+
+.second {
+	position: absolute;
+	top: 200px;
+	margin-top: -1px;
+	height: 2px;
+	background: black;
+	width: 180px;
+	left: 20px;
+	transform-origin: center right;
+}
